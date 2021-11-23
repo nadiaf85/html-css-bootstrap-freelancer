@@ -14,30 +14,62 @@
     text-align: center;
 }
 
+/* Header */
+
 header .container{
     background-color:  #333333;
 }
 
+header .container .col_info{
+    margin-bottom: 30px;
+}
+
+/* Section logo */
+
 .logo .container{
     background-color:   #66cdaa;
+}
+
+.logo .container .col_info{
+    margin-bottom: 30px;
 }
 
 .about .container{
     background-color: #66cdaa;
 }
 
+/* Main */
 
 main .container .row .col{
     color: black;
 }
 
-.about .row .col{
-    color: black;
+main .container{
+    margin-top: 30px;
 }
+
+
+/* Section about */
+
+.about .row .col{
+    color: white;
+}
+
+.about h1{
+    margin-top: 30px;
+}
+
+/* Section contact */
 
 .contact .row .col{
     color: black;
 }
+
+.contact h1{
+    margin-top: 30px;
+}
+
+/* Footer */
 
 footer .container .row .col{
     color: white;
@@ -45,4 +77,8 @@ footer .container .row .col{
 
 footer .container{
     background-color: #336699;
+}
+
+.copyright .container{
+    background-color:   #2f4f4f;
 }
