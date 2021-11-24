@@ -7,17 +7,7 @@
     color: white;
 }
 
-.container{
-    width: 1170px;
-    margin: 0 auto;
-    text-align: center;
-}
-
 /* Header */
-
-header{
-    background-color:  #333333;    
-}
 
 header .container .col_info{
     margin-bottom: 30px;
@@ -80,12 +70,11 @@ main .container{
 }
 
 .portfolio .sixsquare{
-    background-color: #1ABC9C;
     height: 150px;
 }
 
 .image_main img{
-    width: 50%;
+    width: 100%;
     border-radius: 5px 5px;
 }
 
@@ -127,9 +116,41 @@ main .container{
     height: 2px;
     border-radius: 2px;
     line-height: 4px;
+}
 
+.btn{
+    margin-left: 13px;
+    background-color: #66cdaa;
+    border: none;
+}
+
+.ms_input_border{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    border-radius: 0!important;
+}
+
+/* Footer */
 
 footer{
     background-color: black;
-    
+    margin-top: 30px;
+}
+
+.follow{
+    margin-top: 15px;
+}
+
+.follow i{
+    width: 40px;
+    height: 40px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.copyright{
+    background-color: #2C3E50;
 }
