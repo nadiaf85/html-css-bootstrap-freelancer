@@ -4,7 +4,6 @@
 }
 
 [class^="col"]{
-    /* border: 1px solid black; */
     color: white;
 }
 
@@ -27,12 +26,42 @@ header .container .col_info{
 /* Section logo */
 
 .logo{
-    background-color:   #66cdaa;
-    height: 400px;
+    background-color: #1ABC9C;
+    height: 350px;
 }
 
-.logo .container .col_info{
-    margin-bottom: 30px;
+.logo img{
+    width: 150px;
+    margin-top: 30px;
+}
+
+.stella{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.stella:before, .stella::after{
+    content: "";
+    display: inline-block;
+    background-color: white;
+    vertical-align: middle;
+    width: 25%;
+    height: 2px;
+    border-radius: 2px;
+    line-height: 4px;
+}
+
+.portfolio .stella:before, .portfolio .stella::after{
+    content: "";
+    display: inline-block;
+    background-color: black;
+    vertical-align: middle;
+    width: 25%;
+    height: 2px;
+    border-radius: 2px;
+    line-height: 4px;
 }
 
 /* Main */
@@ -41,11 +70,24 @@ main .container .row .col{
     color: black;
 }
 
+main .container .row .col-12{
+    color: black;
+}
+
 main .container{
     margin-top: 30px;
     margin-bottom: 40px;
 }
 
+.portfolio .sixsquare{
+    background-color: #1ABC9C;
+    height: 150px;
+}
+
+.image_main img{
+    width: 50%;
+    border-radius: 5px 5px;
+}
 
 /* Section about */
 
@@ -54,43 +96,36 @@ main .container{
     height: 300px;
 }
 
-.about .container .row i:before{
-    border-left: 1px solid black;
-    content: "";
-}
-
 .about .row .col{
     color: white;
 }
 
-.about h1{
+.about h3{
     margin-top: 30px;
 }
 
 /* Section contact */
 
-.contact .container{
+.contact{
     height: 500px;
 }
 
-.contact .row .col{
+.contact .row .col-12{
     color: black;
 }
 
-.contact h1{
+.contact h3{
     margin-top: 30px;
 }
 
-/* Footer */
+.contact .stella:before, .contact .stella::after{
+    content: "";
+    display: inline-block;
+    background-color: black;
+    vertical-align: middle;
+    width: 25%;
+    height: 2px;
+    border-radius: 2px;
+    line-height: 4px;
 
-footer .container .row .col{
-    color: white;
-}
 
-.location{
-    background-color: #336699;
-}
-
-.copyright{
-    background-color:   #2f4f4f;
-}
