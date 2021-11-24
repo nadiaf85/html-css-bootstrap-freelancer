@@ -107,7 +107,7 @@ main .container{
 /* Section contact */
 
 .contact{
-    height: 500px;
+    height: 120px;
 }
 
 .contact .row .col-12{
@@ -129,3 +129,7 @@ main .container{
     line-height: 4px;
 
 
+footer{
+    background-color: black;
+    
+}
