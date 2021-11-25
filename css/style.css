@@ -7,13 +7,9 @@
     color: white;
 }
 
-/* Header */
-
 header .container .col_info{
     margin-bottom: 30px;
 }
-
-/* Section logo */
 
 .logo{
     background-color: #1ABC9C;
@@ -54,8 +50,6 @@ header .container .col_info{
     line-height: 4px;
 }
 
-/* Main */
-
 main .container .row .col{
     color: black;
 }
@@ -78,8 +72,6 @@ main .container{
     border-radius: 5px 5px;
 }
 
-/* Section about */
-
 .about{
     background-color: #66cdaa;
     height: 300px;
@@ -92,8 +84,6 @@ main .container{
 .about h3{
     margin-top: 30px;
 }
-
-/* Section contact */
 
 .contact{
     height: 120px;
@@ -129,8 +119,6 @@ main .container{
     border-bottom: 1px solid lightgray;
     border-radius: 0!important;
 }
-
-/* Footer */
 
 footer{
     background-color: black;
